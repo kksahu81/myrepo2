@@ -11,7 +11,7 @@
    }
   
    stage('date of Remote') {
-        sh "date"
+        bat(/echo "First Dynamic Stage"/)
      }
   
    stage('Build') {
